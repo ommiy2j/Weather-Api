@@ -1,0 +1,13 @@
+{
+    "Cloudy": "static/cloudy-day-1.svg",
+    "Sunny" :"static/day.svg",
+    "Rain" :"animated/rainy-6.svg",
+    "Snowy" : "static/snowy-3.svg",
+    "Haze"  :"images/icons8-haze-100.png",
+    "Mist" :"images/icons8-fog-100-2.png",
+    "Dust" :"images/icons8-dust-100.png",
+    "Snow" :"images/icons8-snow-100.png",
+    "Fog" :"images/icons8-fog-100.png",
+    "Clouds": "images/icons8-clouds-64.png",
+    "Clear" :"images/icons8-night-100.png"
+}

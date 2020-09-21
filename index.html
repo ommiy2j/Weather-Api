@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Know Weather Of Your City</title>
+</head>
+<body>
+    <section class="mainContainer">
+        <div class="container">
+            <div class="Display_city">
+                <h2>Enter Your City Name:</h2>
+                <input type="text">
+            </div>
+            <h2 class="Display_city_name"></h2>
+            <div class="display_weather_desc">
+                <div class="Weather_Cond">
+                    <img class="mainWeatherSvg" src="animated/cloudy.svg" height="50" width="50" alt="cloudy">
+                    <h2 class="weather">-----</h2>
+                </div>
+                <div class="weather_Temp">
+                    <h1><span>0</span> &#176</h1>
+                </div>
+                <div class="Weather_desc">
+                    <ul>
+                        <li class="wind">Wind: <span>0</span>m/s<img src="images/wind1.png"></li>
+                        <li class="Precip">Humidity: <span>0</span> mm <img src="images/humidity.png"></li>
+                        <li class="pressure">Pressure: <span>0</span>mb<img src="images/pressure.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="other_Days_Weather">
+                <div class="other_days">
+                    <div class="sun days">
+                        <h2>Sunday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="mon days">
+                        <h2>Monday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="tue days">
+                        <h2>Tuesday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="wed days">
+                        <h2>Wednesday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="thrus days">
+                        <h2>Thrusday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="fri days">
+                        <h2>Friday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                    <div class="sat days">
+                        <h2>Saturday</h2>
+                        <img src="animated/cloudy-night-3.svg" height="50" width="50" alt="cloudy">
+                    </div>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+    
+</body>
+</html>
